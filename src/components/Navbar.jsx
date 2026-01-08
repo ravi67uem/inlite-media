@@ -1,0 +1,45 @@
+import Logo from '../assets/logo/logo-svg.svg'
+
+const Navbar = () => {
+  return (
+    <nav className="w-full absolute top-0 left-0 z-50">
+      <div className="max-w-7xl mx-auto px-6 py-9 flex items-center justify-between">
+        
+        {/* Logo */}
+        <div className="flex items-center gap-2">
+          <img
+            src={Logo}
+            alt="Inlite Media logo"
+            // className="h-8 md:h-10 w-auto"
+            // className="h-9 md:h-11 w-auto leading-none"
+            className="h-10 md:h-[46px] w-auto leading-none"
+          />
+        </div>
+
+        {/* Right section */}
+        <div className="flex items-center gap-6">
+
+          {/* CTA Button */}
+          <button
+            className="
+              px-6 py-3 
+              rounded-lg 
+              border border-[#4641AC]
+              bg-[#1F1C58]
+              text-white 
+              font-semibold 
+              text-button
+              hover:bg-[#26216f]
+              transition-colors
+            "
+          >
+            Contact us
+          </button>
+        </div>
+
+      </div>
+    </nav>
+  )
+}
+
+export default Navbar

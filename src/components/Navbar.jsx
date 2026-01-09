@@ -5,7 +5,7 @@ const Navbar = () => {
   const [buttonText, setButtonText] = useState('Contact us')
 
   const handleContactClick = () => {
-    navigator.clipboard.writeText("support@inlitemedia.in")
+    navigator.clipboard.writeText("Hello@inlitemedia.in")
     setButtonText('Email Copied!')
     setTimeout(() => {
       setButtonText('Contact us')
@@ -33,7 +33,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <a
-            href="mailto:support@inlitemedia.in"
+            href="mailto:Hello@inlitemedia.in"
             onClick={handleContactClick}
             className="
               px-4 py-2 

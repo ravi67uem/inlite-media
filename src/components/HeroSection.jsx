@@ -112,6 +112,72 @@ const HeroSection = () => {
         </motion.p>
       </div>
 
+      {/* Bottom  */}
+      <div className="absolute bottom-10 left-0 w-full z-30 text-white">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-end">
+
+          {/* LEFT — Follow us */}
+          <div className="flex flex-col gap-3">
+            <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80">
+              Follow us here
+            </p>
+
+            <div className="flex justify-center gap-3">
+
+              {/* Instagtam */}
+              <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Instagram">
+                <img
+                src="../src/assets/icons/instagram.svg"
+                alt="Instagram"
+                className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
+                />
+              </a>
+
+              {/* Facebook */}
+              <a href="https://www.facebook.com/people/Inlite-Media/61583128961822/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Facebook">
+                <img
+                  src="../src/assets/icons/facebook.svg"
+                  alt="Facebook"
+                  className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
+                />
+              </a>
+            </div>
+
+          </div>
+
+          {/* RIGHT — Contact */}
+          <div className="flex flex-col gap-3">
+            <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80">
+              Contact us on 
+            </p>
+
+            <div className="flex gap-3 justify-center ">
+
+              {/* WhatsApp */}
+              <a href="https://wa.me/message/XOPPOD4UE256B1" target="_blank" rel="noopener noreferrer" aria-label="Contact Inlite Media on WhatsApp">
+                <img
+                src="../src/assets/icons/whatsapp.svg"
+                alt="WhatsApp"
+                className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
+                />
+              </a>
+
+              {/* Phone */}
+              <a href="tel:+919097348720" aria-label="Call Inlite Media">
+                <img
+                src="../src/assets/icons/phone.svg"
+                alt="Phone"
+                className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
+                />
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
     </section>
   )
 }

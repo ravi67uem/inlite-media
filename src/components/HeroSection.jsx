@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Instagram from '../assets/icons/instagram.svg'
 import Facebook from '../assets/icons/facebook.svg'
-import WhatsApp from '../assets/icons/whatsapp.svg'
+import WhatsApp from '../assets/icons/Whatsapp.svg'
 import Phone from '../assets/icons/phone.svg'
 
 const HeroSection = () => {

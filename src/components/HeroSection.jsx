@@ -1,5 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Instagram from '../assets/icons/instagram.svg'
+import Facebook from '../assets/icons/facebook.svg'
+import WhatsApp from '../assets/icons/whatsapp.svg'
+import Phone from '../assets/icons/phone.svg'
 
 const HeroSection = () => {
   return (
@@ -127,7 +131,7 @@ const HeroSection = () => {
               {/* Instagtam */}
               <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Instagram">
                 <img
-                src="../src/assets/icons/instagram.svg"
+                src={Instagram}
                 alt="Instagram"
                 className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
                 />
@@ -136,7 +140,7 @@ const HeroSection = () => {
               {/* Facebook */}
               <a href="https://www.facebook.com/people/Inlite-Media/61583128961822/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Facebook">
                 <img
-                  src="../src/assets/icons/facebook.svg"
+                  src={Facebook}
                   alt="Facebook"
                   className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
                 />
@@ -156,7 +160,7 @@ const HeroSection = () => {
               {/* WhatsApp */}
               <a href="https://wa.me/message/XOPPOD4UE256B1" target="_blank" rel="noopener noreferrer" aria-label="Contact Inlite Media on WhatsApp">
                 <img
-                src="../src/assets/icons/whatsapp.svg"
+                src={WhatsApp}
                 alt="WhatsApp"
                 className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
                 />
@@ -165,7 +169,7 @@ const HeroSection = () => {
               {/* Phone */}
               <a href="tel:+919097348720" aria-label="Call Inlite Media">
                 <img
-                src="../src/assets/icons/phone.svg"
+                src={Phone}
                 alt="Phone"
                 className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
                 />

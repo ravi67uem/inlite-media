@@ -9,6 +9,7 @@ body {
 }
 
 @layer base {
+
   /* Eyebrow / kicker text */
   .text-eyebrow {
     @apply uppercase text-[24px] leading-[30px] tracking-[0.1em] font-bold text-white;
@@ -47,8 +48,8 @@ body {
 @layer utilities {
   .bg-grid {
     background-image:
-      linear-gradient(to right, rgba(255,255,255,0.12) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255,255,255,0.12) 1px, transparent 1px);
+      linear-gradient(to right, rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
     background-size: 28px 28px;
   }
 }
@@ -69,6 +70,3 @@ body {
     background-size: 28px 28px;
   }
 } */
-
-
-

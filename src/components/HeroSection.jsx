@@ -38,7 +38,7 @@ const HeroSection = () => {
         className="
             absolute
             z-5
-            left-1/2 top-[180px]
+            left-1/2 top-[185px]
             -translate-x-1/2
             w-[930px] h-[901px]
             rounded-full
@@ -63,7 +63,7 @@ const HeroSection = () => {
         className="
           absolute
           z-10
-          left-1/2 top-[180px]
+          left-1/2 top-[185px]
           -translate-x-1/2
           w-[930px] h-[901px]
           rounded-full

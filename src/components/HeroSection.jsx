@@ -78,6 +78,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-center px-6 gap-6 pt-37">
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -100,7 +101,8 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-          className="text-body max-w-3xl"
+          className="text-body 
+          max-w-3xl"
         >
           Inlite Media is an outcome-driven creative agency. We replace random
           marketing with engineered growth systems.
@@ -126,7 +128,7 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-start">
 
           {/* LEFT — Follow us */}
-          <div className="flex flex-col gap-3 items-start">
+          <div className="flex flex-col gap-3 items-center ">
             <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80">
               Follow us here
             </p>
@@ -155,12 +157,12 @@ const HeroSection = () => {
           </div>
 
           {/* RIGHT — Contact */}
-          <div className="flex flex-col gap-0 items-end">
+          <div className="flex flex-col gap-0 items-center">
             <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80 text-right">
               Contact us on
             </p>
 
-            <div className="flex gap-2 pt-1 justify-end items-center">
+            <div className="flex gap-2 justify-end items-center">
 
               {/* WhatsApp */}
               <a href="https://wa.me/message/XOPPOD4UE256B1" target="_blank" rel="noopener noreferrer" aria-label="Contact Inlite Media on WhatsApp">
@@ -172,7 +174,7 @@ const HeroSection = () => {
               </a>
 
               {/* Phone */}
-              <a href="tel:+919097348720" aria-label="Call Inlite Media">
+              <a href="tel:+919296977001" aria-label="Call Inlite Media">
                 <img
                   src={Phone}
                   alt="Phone"

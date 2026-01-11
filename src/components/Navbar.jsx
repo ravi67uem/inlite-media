@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full absolute top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-9 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-6 md:py-9 flex items-center justify-between">
 
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -36,18 +36,18 @@ const Navbar = () => {
             href="mailto:Hello@inlitemedia.in"
             onClick={handleContactClick}
             className="
-              px-4 py-2 
-              rounded-lg 
+              px-3 py-[6px] md:px-4 md:py-2 
+              rounded-[4px] md:rounded-lg 
               border border-[#4641AC]
               bg-[#1F1C58]
               text-white 
               font-semibold 
-              text-button
+              text-[10px] leading-[13px] md:text-button
               hover:bg-[#26216f]
               transition-colors
               cursor-pointer
               inline-block
-              min-w-[140px]
+              min-w-[73px] md:min-w-[140px]
               text-center
             "
           >

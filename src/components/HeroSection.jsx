@@ -32,7 +32,7 @@ const HeroSection = () => {
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-17.26%,_#000000_47.81%)]
           shadow-[0_0_3px_rgba(70,65,172,0.30)]
-          
+          backdrop-blur-[17.6px]
           "
       //   shadow-[0_0_4px_rgba(70,65,172,0.22)]
       />
@@ -72,12 +72,13 @@ const HeroSection = () => {
           w-[930px] h-[901px]
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-4.11%,_rgba(0,0,0,0.45)_32.62%)]          
-         shadow-[0_0_4px_rgba(70,65,172,0.30)]
+          shadow-[0_0_4px_rgba(70,65,172,0.30)]
+          backdrop-blur-[17.6px]
         "
       />
 
       {/* Content */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-center px-6 gap-6 pt-37">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-center px-6 gap-4 md:gap-6 pt-32 md:pt-37 pb-48 md:pb-0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -93,14 +94,14 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="text-hero"
         >
-          We Build Systems
+          We Build <br /> Systems.
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-          className="text-body max-w-3xl"
+          className="text-body max-w-[296px] md:max-w-3xl mx-auto"
         >
           Inlite Media is an outcome-driven creative agency. We replace random
           marketing with engineered growth systems.
@@ -110,7 +111,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
-          className="text-launch mt-10"
+          className="text-launch mt-6 md:mt-10"
         >
           Launching Soon!
         </motion.p>
@@ -123,15 +124,15 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
         className="absolute bottom-10 left-0 w-full z-30 text-white"
       >
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-start">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-8 md:flex-row md:justify-between md:items-start md:gap-0">
 
           {/* LEFT — Follow us */}
-          <div className="flex flex-col gap-3 items-start">
-            <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80">
+          <div className="flex flex-col gap-3 items-center md:items-start">
+            <p className="text-[13px] md:text-[12px] font-semibold tracking-wide uppercase opacity-80 text-center md:text-left">
               Follow us here
             </p>
 
-            <div className="flex justify-start gap-3">
+            <div className="flex justify-center md:justify-start gap-3">
 
               {/* Instagtam */}
               <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Instagram">
@@ -155,12 +156,12 @@ const HeroSection = () => {
           </div>
 
           {/* RIGHT — Contact */}
-          <div className="flex flex-col gap-0 items-end">
-            <p className="text-[12px] font-semibold tracking-wide uppercase opacity-80 text-right">
+          <div className="flex flex-col gap-0 items-center md:items-end">
+            <p className="text-[13px] md:text-[12px] font-semibold tracking-wide uppercase opacity-80 text-center md:text-right">
               Contact us on
             </p>
 
-            <div className="flex gap-2 pt-1 justify-end items-center">
+            <div className="flex gap-2 pt-1 justify-center md:justify-end items-center">
 
               {/* WhatsApp */}
               <a href="https://wa.me/message/XOPPOD4UE256B1" target="_blank" rel="noopener noreferrer" aria-label="Contact Inlite Media on WhatsApp">

@@ -84,7 +84,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          <p className="text-eyebrow">We Don’t Just{" "} <span className="italic tracking-wide">Post</span>.</p>
+          <p className="text-eyebrow">We Don’t Just{" "} <span className="italic tracking-wide ">Post</span>.</p>
         </motion.div>
 
 
@@ -92,7 +92,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="text-hero"
+          className="text-hero leading-[1] md:leading-tight"
         >
           We Build <br className="md:hidden" /> Systems.
         </motion.h1>

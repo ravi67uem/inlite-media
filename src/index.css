@@ -12,27 +12,28 @@ body {
 
   /* Eyebrow / kicker text */
   .text-eyebrow {
-    @apply uppercase text-[24px] leading-[30px] tracking-[0.1em] font-bold text-white;
+    @apply uppercase text-[14px] leading-[18px] md:text-[24px] md:leading-[30px] tracking-[0.1em] font-bold text-white;
   }
 
   /* Hero heading */
   .text-hero {
-    @apply text-[96px] leading-[121px] tracking-[-0.03em] font-extrabold text-[#E4BF6E];
+    /* Mobile: 64px/81px, Capitalize */
+    @apply text-[64px] leading-[81px] capitalize md:text-[96px] md:leading-[121px] tracking-[-0.03em] font-extrabold text-[#E4BF6E];
   }
 
   /* Body paragraph */
   .text-body {
-    @apply text-[24px] leading-[30px] tracking-[0.15px] font-normal text-white;
+    @apply text-[14px] leading-[18px] md:text-[24px] md:leading-[30px] tracking-[0.15px] font-normal text-white;
   }
 
   /* Launching soon text */
   .text-launch {
-    @apply text-[40px] leading-[50px] tracking-[-0.03em] font-bold text-[#CCCCCC];
+    @apply text-[24px] leading-[30px] md:text-[40px] md:leading-[50px] tracking-[-0.03em] font-bold text-[#CCCCCC];
   }
 
   /* Button text */
   .text-button {
-    @apply text-[20px] leading-[25px] font-semibold text-white;
+    @apply text-[16px] leading-[20px] md:text-[20px] md:leading-[25px] font-semibold text-white;
   }
 }
 

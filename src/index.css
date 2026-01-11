@@ -18,7 +18,7 @@ body {
   /* Hero heading */
   .text-hero {
     /* Mobile: 64px/81px, Capitalize */
-    @apply text-[64px] leading-[81px] capitalize md:text-[96px] md:leading-[121px] md:uppercase tracking-[-0.03em] font-extrabold text-[#E4BF6E];
+    @apply text-[64px] leading-[81px] capitalize md:text-[96px] md:leading-[121px] tracking-[-0.03em] font-extrabold text-[#E4BF6E];
   }
 
   /* Body paragraph */

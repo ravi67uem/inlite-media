@@ -94,7 +94,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="text-hero"
         >
-          We Build <br /> Systems.
+          We Build <br className="md:hidden" /> Systems.
         </motion.h1>
 
         <motion.p

@@ -107,14 +107,14 @@ const HeroSection = () => {
           marketing with engineered growth systems.
         </motion.p>
 
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
           className="text-launch mt-6 md:mt-10"
         >
           Launching Soon!
-        </motion.p>
+        </motion.p> */}
       </div>
 
       {/* Bottom  */}

@@ -26,9 +26,13 @@ const HeroSection = () => {
         className="
           absolute
           z-10
-          left-1/2 top-[-770px]
+          left-1/2 
+          // top-[-770px]
+          // top-[-800px]
+          top-[-805px]
           -translate-x-1/2
-          w-[930px] h-[901px]
+          // w-[930px] h-[901px]
+          w-[901px] h-[901px]
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-17.26%,_#000000_47.81%)]
           shadow-[0_0_3px_rgba(70,65,172,0.30)]
@@ -42,9 +46,13 @@ const HeroSection = () => {
         className="
             absolute
             z-5
-            left-1/2 top-[185px]
+            left-1/2 
+            // top-[185px]
+            // top-[290px]
+            top-[300px]
             -translate-x-1/2
-            w-[930px] h-[901px]
+            // w-[930px] h-[901px]
+            w-[901px] h-[901px]
             rounded-full
             bg-[#050505]
             "
@@ -67,9 +75,13 @@ const HeroSection = () => {
         className="
           absolute
           z-10
-          left-1/2 top-[185px]
+          left-1/2 
+          // top-[185px]
+          // top-[290px]
+          top-[300px]
           -translate-x-1/2
-          w-[930px] h-[901px]
+          // w-[930px] h-[901px]
+          w-[901px] h-[901px]
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-4.11%,_rgba(0,0,0,0.45)_32.62%)]          
           shadow-[0_0_4px_rgba(70,65,172,0.30)]
@@ -78,7 +90,7 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-center px-6 gap-4 md:gap-6 pt-32 md:pt-37 pb-48 md:pb-0">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-4 md:gap-4 pt-40 md:pt-35">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -107,84 +119,25 @@ const HeroSection = () => {
           marketing with engineered growth systems.
         </motion.p>
 
-        {/* <motion.p
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
-          className="text-launch mt-6 md:mt-10"
-        >
-          Launching Soon!
-        </motion.p> */}
       </div>
 
-      {/* Bottom  */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
-        className="absolute bottom-10 left-0 w-full z-30 text-white"
-      >
-        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-8 md:flex-row md:justify-between md:items-start md:gap-0">
 
-          {/* LEFT — Follow us */}
-          <div className="flex flex-col gap-3 items-center md:items-start">
-            <p className="text-[13px] md:text-[12px] font-semibold tracking-wide uppercase opacity-80 text-center md:text-left">
-              Follow us here
-            </p>
-
-            <div className="flex justify-center md:justify-start gap-3">
-
-              {/* Instagtam */}
-              <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Instagram">
-                <img
-                  src={Instagram}
-                  alt="Instagram"
-                  className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
-                />
-              </a>
-
-              {/* Facebook */}
-              <a href="https://www.facebook.com/people/Inlite-Media/61583128961822/" target="_blank" rel="noopener noreferrer" aria-label="Inlite Media on Facebook">
-                <img
-                  src={Facebook}
-                  alt="Facebook"
-                  className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
-                />
-              </a>
-            </div>
-
-          </div>
-
-          {/* RIGHT — Contact */}
-          <div className="flex flex-col gap-0 items-center md:items-end">
-            <p className="text-[13px] md:text-[12px] font-semibold tracking-wide uppercase opacity-80 text-center md:text-right">
-              Contact us on
-            </p>
-
-            <div className="flex gap-2 pt-1 justify-center md:justify-end items-center">
-
-              {/* WhatsApp */}
-              <a href="https://wa.me/message/XOPPOD4UE256B1" target="_blank" rel="noopener noreferrer" aria-label="Contact Inlite Media on WhatsApp">
-                <img
-                  src={WhatsApp}
-                  alt="WhatsApp"
-                  className="w-8 h-8 opacity-90 hover:opacity-100 hover:scale-110 transition"
-                />
-              </a>
-
-              {/* Phone */}
-              <a href="tel:+919296977001" aria-label="Call Inlite Media">
-                <img
-                  src={Phone}
-                  alt="Phone"
-                  className="w-[48px] h-[48px] pt-1 opacity-90 hover:opacity-100 hover:scale-110 transition"
-                />
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </motion.div>
+      {/* Giant Background Text */}
+      <div className="absolute bottom-[7px] left-1/2 -translate-x-1/2 z-10 pointer-events-none">
+        <h2 className="
+        text-[180px] md:text-[255px]
+        font-extrabold
+        tracking-[-0.03em]
+        opacity-10
+        // bg-gradient-to-b from-white to-[#13122C]
+        text-[#FFFFFF]
+        bg-clip-text 
+        text-transparent
+        whitespace-nowrap
+        ">
+         inlite media
+        </h2>
+      </div>
 
 
 

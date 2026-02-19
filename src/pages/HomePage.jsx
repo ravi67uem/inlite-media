@@ -10,7 +10,7 @@ const HomePage = () => {
     <div className='flex flex-col min-h-screen'>
       <Navbar />
       <HeroSection />
-      <GiantText />
+      {/* <GiantText /> */}
       <Footer />
     </div>
     </>

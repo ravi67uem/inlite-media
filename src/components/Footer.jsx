@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Giant Background Text */}
       <div className="absolute top-3 left-1/2 -translate-x-1/2 w-full overflow-hidden pointer-events-none z-0">
         <h2 className="
-          text-[60px] 
+          text-[60px] md:text-[0px]
           font-extrabold
           tracking-[-0.03em]
           text-white/5

@@ -19,7 +19,7 @@ const Footer = () => {
         </h2>
       </div>
 
-      {/* <GiantText /> */}
+     
 
 
       <div className="relative z-20 max-w-5xl mx-auto px-8 md:px-10">
@@ -34,7 +34,7 @@ const Footer = () => {
               Contact us
             </h3>
 
-            <div className="space-y-2 text-white text-[15px] md:text-[18px] font-semibold">
+            <div className="space-y-2 text-white text-[13px] md:text-[18px] font-semibold">
               <p>
                 Phone:{" "}
                 <a href="tel:+919296977001" className="hover:opacity-80">
@@ -69,7 +69,7 @@ const Footer = () => {
               Socials
             </h3>
 
-            <div className="space-y-2 text-white text-[15px] md:text-[18px] font-semibold">
+            <div className="space-y-2 text-white text-[13px] md:text-[18px] font-semibold">
               <p>
                 <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer">
                   Instagram

@@ -125,7 +125,6 @@ const HeroSection = () => {
 
       </div>
 
-      {/* <GiantText /> */}
 
 
       {/* Giant Background Text */}

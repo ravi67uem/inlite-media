@@ -2,13 +2,28 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="relative -mt-28 w-full bg-[linear-gradient(177.15deg,_#100F24_10.28%,_#3D398A_116.23%)] overflow-hidden py-10 md:py-16 z-10">
+    <footer className="relative -mt-80 md:-mt-10 w-full bg-[linear-gradient(177.15deg,_#100F24_10.28%,_#3D398A_116.23%)] overflow-hidden py-30 pt-28 pb-12 md:py-14 z-10">
 
-      <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-12">
+      {/* Giant Background Text */}
+      {/* <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-full overflow-hidden pointer-events-none">
+        <h2 className="
+          text-[60px] md:text-[240px]
+          font-extrabold
+          tracking-[-0.03em]
+          text-white/5
+          whitespace-nowrap
+          text-center
+        ">
+          inlite media
+        </h2>
+      </div> */}
+
+
+      <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-10">
       {/* <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-16"> */}
 
         {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 md:items-start"> */}
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-0 items-start">
+        <div className="grid grid-cols-2 grid-cols-[1.3fr_1fr] md:grid-cols-[1fr_auto] gap-6 md:gap-0 items-start">
 
           {/* Contact */}
           <div>
@@ -46,7 +61,7 @@ const Footer = () => {
           </div>
 
           {/* Socials */}
-          <div>
+          <div className="justify-self-end text-left">
             <h3 className="text-[#E4BF6E] text-[18px] md:text-[22px] mb-4">
               Socials
             </h3>
@@ -63,7 +78,7 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/company/inlitemedia/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
               </p>

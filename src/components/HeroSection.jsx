@@ -27,12 +27,11 @@ const HeroSection = () => {
           absolute
           z-10
           left-1/2 
-          // top-[-770px]
-          // top-[-800px]
-          top-[-805px]
           -translate-x-1/2
-          // w-[930px] h-[901px]
-          w-[901px] h-[901px]
+          // top-[-805px]
+          top-[-40vw] md:top-[-805px]
+          // w-[901px] h-[901px]
+          w-[120vw] h-[120vw] md:w-[901px] md:h-[901px]
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-17.26%,_#000000_47.81%)]
           shadow-[0_0_3px_rgba(70,65,172,0.30)]
@@ -47,12 +46,14 @@ const HeroSection = () => {
             absolute
             z-5
             left-1/2 
+            -translate-x-1/2
             // top-[185px]
             // top-[290px]
-            top-[300px]
-            -translate-x-1/2
+            // top-[300px]
+            top-[45vw] md:top-[300px]
             // w-[930px] h-[901px]
-            w-[901px] h-[901px]
+            // w-[901px] h-[901px]
+            w-[130vw] h-[130vw] md:w-[901px] md:h-[901px]
             rounded-full
             bg-[#050505]
             "
@@ -76,12 +77,14 @@ const HeroSection = () => {
           absolute
           z-10
           left-1/2 
+          -translate-x-1/2
           // top-[185px]
           // top-[290px]
-          top-[300px]
-          -translate-x-1/2
+          // top-[300px]
+          top-[45vw] md:top-[300px]
           // w-[930px] h-[901px]
-          w-[901px] h-[901px]
+          // w-[901px] h-[901px]
+          w-[130vw] h-[130vw] md:w-[901px] md:h-[901px]
           rounded-full
           bg-[linear-gradient(180deg,_#1F1C58_-4.11%,_rgba(0,0,0,0.45)_32.62%)]          
           shadow-[0_0_4px_rgba(70,65,172,0.30)]
@@ -90,7 +93,7 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-4 md:gap-4 pt-40 md:pt-35">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-5 md:gap-4 pt-[48vw] md:pt-35">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -123,7 +126,7 @@ const HeroSection = () => {
 
 
       {/* Giant Background Text */}
-      <div className="absolute bottom-[7px] left-1/2 -translate-x-1/2 z-10 pointer-events-none">
+      {/* <div className="absolute bottom-[7px] left-1/2 -translate-x-1/2 z-10 pointer-events-none">
         <h2 className="
         text-[180px] md:text-[255px]
         font-extrabold
@@ -137,7 +140,7 @@ const HeroSection = () => {
         ">
          inlite media
         </h2>
-      </div>
+      </div> */}
 
 
 

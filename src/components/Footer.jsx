@@ -20,10 +20,10 @@ const Footer = () => {
 
 
       <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-10">
-      {/* <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-16"> */}
+        {/* <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-16"> */}
 
         {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 md:items-start"> */}
-        <div className="grid grid-cols-2 grid-cols-[1.3fr_1fr] md:grid-cols-[1fr_auto] gap-6 md:gap-0 items-start">
+        <div className="grid grid-cols-2 grid-cols-[3fr_1fr] md:grid-cols-[1fr_auto] gap-6 md:gap-0 items-start">
 
           {/* Contact */}
           <div>
@@ -31,7 +31,7 @@ const Footer = () => {
               Contact us
             </h3>
 
-            <div className="space-y-2 text-white text-[15px] md:text-[18px] font-semibold">
+            <div className="space-y-3 text-white text-[15px] md:text-[18px] font-semibold">
               <p>
                 Phone:{" "}
                 <a href="tel:+919296977001" className="hover:opacity-80">

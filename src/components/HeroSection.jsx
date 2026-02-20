@@ -94,7 +94,7 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-5 md:gap-4 pt-[48vw] md:pt-35">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-5 md:gap-4 pt-[48vw] md:pt-35 pb-80 md:pb-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

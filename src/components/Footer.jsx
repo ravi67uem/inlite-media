@@ -69,7 +69,7 @@ const Footer = () => {
               Socials
             </h3>
 
-            <div className="space-y-2 text-white text-[13px] md:text-[18px] font-semibold">
+            <div className="space-y-3 text-white text-[15px] md:text-[18px] font-semibold">
               <p>
                 <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer">
                   Instagram

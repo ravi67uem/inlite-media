@@ -1,13 +1,14 @@
 import React from 'react'
+import GiantText from './GiantText'
 
 const Footer = () => {
   return (
-    <footer className="relative -mt-80 md:-mt-10 w-full bg-[linear-gradient(177.15deg,_#100F24_10.28%,_#3D398A_116.23%)] overflow-hidden py-30 pt-28 pb-12 md:py-14 z-10">
+    <footer className="relative z-20 -mt-80 md:-mt-10 w-full bg-[linear-gradient(177.15deg,_#100F24_10.28%,_#3D398A_116.23%)] overflow-hidden py-30 pt-28 pb-12 md:py-14 z-10">
 
       {/* Giant Background Text */}
-      {/* <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-full overflow-hidden pointer-events-none">
+      <div className="absolute top-3 left-1/2 -translate-x-1/2 w-full overflow-hidden pointer-events-none z-0">
         <h2 className="
-          text-[60px] md:text-[240px]
+          text-[60px] md:text-[0px]
           font-extrabold
           tracking-[-0.03em]
           text-white/5
@@ -16,7 +17,9 @@ const Footer = () => {
         ">
           inlite media
         </h2>
-      </div> */}
+      </div>
+
+     
 
 
       <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-10">
@@ -66,7 +69,7 @@ const Footer = () => {
               Socials
             </h3>
 
-            <div className="space-y-2 text-white text-[15px] md:text-[18px] font-semibold">
+            <div className="space-y-2 text-white text-[13px] md:text-[18px] font-semibold">
               <p>
                 <a href="https://www.instagram.com/inlitemedia/" target="_blank" rel="noopener noreferrer">
                   Instagram

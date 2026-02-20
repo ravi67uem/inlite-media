@@ -3,9 +3,9 @@ import React from 'react'
 const GiantText = () => {
   return (
     <div className="absolute left-1/2 -translate-x-1/2 
-                    bottom-[48vw] md:bottom-[-5vw] 
-                    z-100 md:z-10 pointer-events-none 
-                    w-full overflow-hidden">
+                    top-[2] md:bottom-[-5vw] 
+                    z-15 pointer-events-none 
+                    w-full overflow-hidden ">
       
       <h2 className="
         text-[65px] md:text-[250px]

@@ -4,6 +4,7 @@ import Instagram from '../assets/icons/instagram.svg'
 import Facebook from '../assets/icons/facebook.svg'
 import WhatsApp from '../assets/icons/Whatsapp.svg'
 import Phone from '../assets/icons/phone.svg'
+import GiantText from './GiantText'
 
 const HeroSection = () => {
   return (
@@ -125,22 +126,21 @@ const HeroSection = () => {
       </div>
 
 
+
       {/* Giant Background Text */}
-      {/* <div className="absolute bottom-[7px] left-1/2 -translate-x-1/2 z-10 pointer-events-none">
+      <div className="absolute bottom-[-5vw] left-1/2 -translate-x-1/2 z-10 pointer-events-none overflow-hidden">
         <h2 className="
-        text-[180px] md:text-[255px]
+        md:text-[250px]
         font-extrabold
         tracking-[-0.03em]
-        opacity-10
-        // bg-gradient-to-b from-white to-[#13122C]
         text-[#FFFFFF]
         bg-clip-text 
-        text-transparent
+        opacity-9
         whitespace-nowrap
         ">
          inlite media
         </h2>
-      </div> */}
+      </div>
 
 
 

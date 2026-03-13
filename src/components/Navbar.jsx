@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <img
             src={Logo}
-            alt="Inlite Media logo"
+            alt="Inlite Media Social Media Marketing Agency Logo"
             // className="h-8 md:h-10 w-auto"
             // className="h-9 md:h-11 w-auto leading-none"
             className="h-10 md:h-[46px] w-auto leading-none"

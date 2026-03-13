@@ -120,7 +120,8 @@ const HeroSection = () => {
           className="text-body max-w-[296px] md:max-w-3xl mx-auto"
         >
           Inlite Media is an outcome-driven creative agency. We replace random
-          marketing with engineered growth systems.
+          marketing with engineered growth systems that help
+          brands scale their online presence.
         </motion.p>
 
       </div>

@@ -1,5 +1,6 @@
+"use client"
+
 import { useState } from 'react'
-import Logo from '../assets/logo/logo-svg.svg'
 
 const Navbar = () => {
   const [buttonText, setButtonText] = useState('Contact us')
@@ -20,7 +21,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src={Logo}
+            src="/logo-svg.svg"
             alt="Inlite Media Social Media Marketing Agency Logo"
             // className="h-8 md:h-10 w-auto"
             // className="h-9 md:h-11 w-auto leading-none"

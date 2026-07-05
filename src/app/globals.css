@@ -12,7 +12,7 @@ body {
 
   /* Eyebrow / kicker text */
   .text-eyebrow {
-    @apply uppercase text-[14px] leading-[18px] md:text-[24px] md:leading-[30px] tracking-[0.1em] font-bold text-white;
+    @apply uppercase text-[8px] leading-[12px] md:text-[14px] md:leading-[18px] tracking-[0.1em] font-bold text-white;
   }
 
   /* Hero heading */
@@ -23,7 +23,7 @@ body {
 
   /* Body paragraph */
   .text-body {
-    @apply text-[14px] leading-[18px] md:text-[24px] md:leading-[30px] tracking-[0.15px] font-normal text-white;
+    @apply text-[12px] leading-[16px] md:text-[20px] md:leading-[26px] tracking-[0.15px] font-normal text-white;
   }
 
   /* Launching soon text */
@@ -37,15 +37,6 @@ body {
   }
 }
 
-/* @layer utilities {
-  .bg-grid {
-    background-image:
-      linear-gradient(to right, rgba(255,255,255,0.08) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255,255,255,0.08) 1px, transparent 1px);
-    background-size: 28px 28px;
-  }
-} */
-
 @layer utilities {
   .bg-grid {
     background-image:
@@ -53,21 +44,18 @@ body {
       linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
     background-size: 28px 28px;
   }
-}
 
-/* @layer utilities {
-  .bg-grid {
-    background-image:
-      linear-gradient(
-        to right,
-        rgba(22, 24, 36, 0.65) 1px,
-        transparent 1px
-      ),
-      linear-gradient(
-        to bottom,
-        rgba(22, 24, 36, 0.65) 1px,
-        transparent 1px
-      );
-    background-size: 28px 28px;
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-33.3333%);
+    }
   }
-} */
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+}

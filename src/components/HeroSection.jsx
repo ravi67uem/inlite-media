@@ -1,17 +1,14 @@
+"use client"
+
 import React from 'react'
 import { motion } from 'framer-motion'
-import Instagram from '../assets/icons/instagram.svg'
-import Facebook from '../assets/icons/facebook.svg'
-import WhatsApp from '../assets/icons/Whatsapp.svg'
-import Phone from '../assets/icons/phone.svg'
-import GiantText from './GiantText'
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-[#050505]">
 
       {/* Grid background */}
-      <div className="absolute inset-0 bg-grid opacity-35 z-0" />
+      <div className="absolute inset-0 bg-grid opacity-20 z-0" />
 
       {/* Top arc (upper circle) */}
       <motion.div
@@ -94,13 +91,13 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-5 md:gap-4 pt-[48vw] md:pt-35 pb-80 md:pb-10">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-center px-6 gap-5 md:gap-4 pt-[48vw] md:pt-50 pb-20 md:pb-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          <p className="text-eyebrow">We Don’t Just{" "} <span className="italic tracking-wide ">Post</span>.</p>
+          <p className="text-eyebrow">Big-city work, {" "} <span className="italic tracking-wide ">Local Heartbeat</span>.</p>
         </motion.div>
 
 
@@ -119,9 +116,9 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="text-body max-w-[296px] md:max-w-3xl mx-auto"
         >
-          Inlite Media is an outcome-driven creative agency. We replace random
-          marketing with engineered growth systems that help
-          brands scale their online presence.
+          Inlite Media is a creative marketing agency based in Gaya, Bihar. We help
+          businesses build brands, run campaigns, and create content that helps them look
+          and grow like the best in the country, all without leaving home.
         </motion.p>
 
       </div>
@@ -136,10 +133,10 @@ const HeroSection = () => {
         tracking-[-0.03em]
         text-[#FFFFFF]
         bg-clip-text 
-        opacity-9
+        opacity-5
         whitespace-nowrap
         ">
-         inlite media
+          inlite media
         </h2>
       </div>
 

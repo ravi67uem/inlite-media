@@ -1,0 +1,75 @@
+/* Inlite Media Custom Admin Styling */
+
+:root {
+  --color-base-0: #ffffff;
+  --color-base-50: #f8fafc;
+  --color-base-100: #f1f5f9;
+  --color-base-500: #64748b;
+  --color-base-900: #0f172a;
+  --color-base-950: #050c1f;
+
+  /* Accent - Inlite Gold */
+  --theme-elevation-50: #08122a;
+  --theme-elevation-100: #0b1838;
+  --theme-elevation-150: #0f2048;
+}
+
+[data-theme='dark'], html {
+  --theme-bg: #070d1e !important;
+  --theme-elevation-0: #050c1f !important;
+  --theme-elevation-50: #0a1329 !important;
+  --theme-elevation-100: #0e1a38 !important;
+  --theme-elevation-150: #122247 !important;
+  --theme-elevation-200: #172a56 !important;
+  --theme-elevation-250: #1d3366 !important;
+}
+
+/* Inlite Gold Primary Accent */
+.btn--style-primary,
+button[type="submit"],
+.btn--size-medium.btn--style-primary {
+  background-color: #f5ce65 !important;
+  color: #050c1f !important;
+  font-weight: 700 !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(245, 206, 101, 0.25) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn--style-primary:hover,
+button[type="submit"]:hover {
+  background-color: #f7d57c !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 18px rgba(245, 206, 101, 0.35) !important;
+}
+
+/* Nav & Header styling */
+.nav {
+  background-color: #050c1f !important;
+  border-right: 1px solid rgba(245, 206, 101, 0.15) !important;
+}
+
+.template-default__header {
+  border-bottom: 1px solid rgba(245, 206, 101, 0.15) !important;
+}
+
+/* Focus and input states */
+input:focus, select:focus, textarea:focus {
+  border-color: #f5ce65 !important;
+  box-shadow: 0 0 0 2px rgba(245, 206, 101, 0.2) !important;
+}
+
+/* Login Page Styling */
+.template-minimal {
+  background: radial-gradient(circle at 50% 20%, #0d1e47 0%, #050c1f 80%) !important;
+}
+
+.template-minimal .form-header h1 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+}
+
+/* Sidebar active link */
+.nav__link.active, .nav__link:hover {
+  color: #f5ce65 !important;
+}
